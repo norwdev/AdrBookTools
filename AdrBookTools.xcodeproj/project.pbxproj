@@ -9,12 +9,20 @@
 /* Begin PBXBuildFile section */
 		878931D51CF82737001DE53E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 878931D41CF82737001DE53E /* main.m */; };
 		878931D81CF82737001DE53E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 878931D71CF82737001DE53E /* AppDelegate.m */; };
-		878931DB1CF82737001DE53E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 878931DA1CF82737001DE53E /* ViewController.m */; };
 		878931DE1CF82737001DE53E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 878931DC1CF82737001DE53E /* Main.storyboard */; };
 		878931E01CF82737001DE53E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 878931DF1CF82737001DE53E /* Assets.xcassets */; };
 		878931E31CF82737001DE53E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 878931E11CF82737001DE53E /* LaunchScreen.storyboard */; };
 		878931EE1CF82737001DE53E /* AdrBookToolsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 878931ED1CF82737001DE53E /* AdrBookToolsTests.m */; };
 		878931F91CF82737001DE53E /* AdrBookToolsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 878931F81CF82737001DE53E /* AdrBookToolsUITests.m */; };
+		87FBA4271CF82CE90063DB07 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 87FBA4261CF82CE90063DB07 /* TableViewController.m */; };
+		87FBA42A1CF838BD0063DB07 /* ContactManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 87FBA4291CF838BD0063DB07 /* ContactManager.m */; };
+		87FBA42D1CF839720063DB07 /* ContactModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 87FBA42C1CF839720063DB07 /* ContactModel.m */; };
+		87FBA4311CF83AC80063DB07 /* UIAlertView+YH.m in Sources */ = {isa = PBXBuildFile; fileRef = 87FBA4301CF83AC80063DB07 /* UIAlertView+YH.m */; };
+		87FBA4351CF83E9B0063DB07 /* pinyin.c in Sources */ = {isa = PBXBuildFile; fileRef = 87FBA4331CF83E9B0063DB07 /* pinyin.c */; };
+		87FBA4391CF842D40063DB07 /* default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 87FBA4381CF842D40063DB07 /* default@2x.png */; };
+		87FBA43C1CF8488B0063DB07 /* NorwTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 87FBA43B1CF8488B0063DB07 /* NorwTableViewCell.m */; };
+		87FBA43F1CF84A270063DB07 /* activate_friends_not_seleted@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 87FBA43D1CF84A270063DB07 /* activate_friends_not_seleted@2x.png */; };
+		87FBA4401CF84A270063DB07 /* activate_friends_seleted@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 87FBA43E1CF84A270063DB07 /* activate_friends_seleted@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +47,6 @@
 		878931D41CF82737001DE53E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		878931D61CF82737001DE53E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		878931D71CF82737001DE53E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		878931D91CF82737001DE53E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		878931DA1CF82737001DE53E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		878931DD1CF82737001DE53E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		878931DF1CF82737001DE53E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		878931E21CF82737001DE53E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +57,22 @@
 		878931F41CF82737001DE53E /* AdrBookToolsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AdrBookToolsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		878931F81CF82737001DE53E /* AdrBookToolsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AdrBookToolsUITests.m; sourceTree = "<group>"; };
 		878931FA1CF82737001DE53E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		87FBA4251CF82CE90063DB07 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		87FBA4261CF82CE90063DB07 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		87FBA4281CF838BD0063DB07 /* ContactManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactManager.h; sourceTree = "<group>"; };
+		87FBA4291CF838BD0063DB07 /* ContactManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactManager.m; sourceTree = "<group>"; };
+		87FBA42B1CF839720063DB07 /* ContactModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactModel.h; sourceTree = "<group>"; };
+		87FBA42C1CF839720063DB07 /* ContactModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactModel.m; sourceTree = "<group>"; };
+		87FBA42F1CF83AC80063DB07 /* UIAlertView+YH.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertView+YH.h"; sourceTree = "<group>"; };
+		87FBA4301CF83AC80063DB07 /* UIAlertView+YH.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertView+YH.m"; sourceTree = "<group>"; };
+		87FBA4331CF83E9B0063DB07 /* pinyin.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = pinyin.c; sourceTree = "<group>"; };
+		87FBA4341CF83E9B0063DB07 /* pinyin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pinyin.h; sourceTree = "<group>"; };
+		87FBA4361CF841110063DB07 /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
+		87FBA4381CF842D40063DB07 /* default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "default@2x.png"; sourceTree = "<group>"; };
+		87FBA43A1CF8488B0063DB07 /* NorwTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NorwTableViewCell.h; sourceTree = "<group>"; };
+		87FBA43B1CF8488B0063DB07 /* NorwTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NorwTableViewCell.m; sourceTree = "<group>"; };
+		87FBA43D1CF84A270063DB07 /* activate_friends_not_seleted@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "activate_friends_not_seleted@2x.png"; sourceTree = "<group>"; };
+		87FBA43E1CF84A270063DB07 /* activate_friends_seleted@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "activate_friends_seleted@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +123,20 @@
 		878931D21CF82737001DE53E /* AdrBookTools */ = {
 			isa = PBXGroup;
 			children = (
+				87FBA4371CF842D40063DB07 /* Resource */,
+				87FBA4321CF83E9B0063DB07 /* Pingying */,
+				87FBA42E1CF83AC80063DB07 /* UIAlertViewExt */,
 				878931D61CF82737001DE53E /* AppDelegate.h */,
 				878931D71CF82737001DE53E /* AppDelegate.m */,
-				878931D91CF82737001DE53E /* ViewController.h */,
-				878931DA1CF82737001DE53E /* ViewController.m */,
+				87FBA4361CF841110063DB07 /* Header.h */,
+				87FBA4251CF82CE90063DB07 /* TableViewController.h */,
+				87FBA4261CF82CE90063DB07 /* TableViewController.m */,
+				87FBA43A1CF8488B0063DB07 /* NorwTableViewCell.h */,
+				87FBA43B1CF8488B0063DB07 /* NorwTableViewCell.m */,
+				87FBA4281CF838BD0063DB07 /* ContactManager.h */,
+				87FBA4291CF838BD0063DB07 /* ContactManager.m */,
+				87FBA42B1CF839720063DB07 /* ContactModel.h */,
+				87FBA42C1CF839720063DB07 /* ContactModel.m */,
 				878931DC1CF82737001DE53E /* Main.storyboard */,
 				878931DF1CF82737001DE53E /* Assets.xcassets */,
 				878931E11CF82737001DE53E /* LaunchScreen.storyboard */,
@@ -138,6 +170,34 @@
 				878931FA1CF82737001DE53E /* Info.plist */,
 			);
 			path = AdrBookToolsUITests;
+			sourceTree = "<group>";
+		};
+		87FBA42E1CF83AC80063DB07 /* UIAlertViewExt */ = {
+			isa = PBXGroup;
+			children = (
+				87FBA42F1CF83AC80063DB07 /* UIAlertView+YH.h */,
+				87FBA4301CF83AC80063DB07 /* UIAlertView+YH.m */,
+			);
+			path = UIAlertViewExt;
+			sourceTree = "<group>";
+		};
+		87FBA4321CF83E9B0063DB07 /* Pingying */ = {
+			isa = PBXGroup;
+			children = (
+				87FBA4331CF83E9B0063DB07 /* pinyin.c */,
+				87FBA4341CF83E9B0063DB07 /* pinyin.h */,
+			);
+			path = Pingying;
+			sourceTree = "<group>";
+		};
+		87FBA4371CF842D40063DB07 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				87FBA43D1CF84A270063DB07 /* activate_friends_not_seleted@2x.png */,
+				87FBA43E1CF84A270063DB07 /* activate_friends_seleted@2x.png */,
+				87FBA4381CF842D40063DB07 /* default@2x.png */,
+			);
+			path = Resource;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -243,7 +303,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				87FBA4401CF84A270063DB07 /* activate_friends_seleted@2x.png in Resources */,
+				87FBA4391CF842D40063DB07 /* default@2x.png in Resources */,
 				878931E31CF82737001DE53E /* LaunchScreen.storyboard in Resources */,
+				87FBA43F1CF84A270063DB07 /* activate_friends_not_seleted@2x.png in Resources */,
 				878931E01CF82737001DE53E /* Assets.xcassets in Resources */,
 				878931DE1CF82737001DE53E /* Main.storyboard in Resources */,
 			);
@@ -270,9 +333,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				878931DB1CF82737001DE53E /* ViewController.m in Sources */,
+				87FBA4351CF83E9B0063DB07 /* pinyin.c in Sources */,
+				87FBA4311CF83AC80063DB07 /* UIAlertView+YH.m in Sources */,
 				878931D81CF82737001DE53E /* AppDelegate.m in Sources */,
+				87FBA4271CF82CE90063DB07 /* TableViewController.m in Sources */,
+				87FBA42A1CF838BD0063DB07 /* ContactManager.m in Sources */,
 				878931D51CF82737001DE53E /* main.m in Sources */,
+				87FBA42D1CF839720063DB07 /* ContactModel.m in Sources */,
+				87FBA43C1CF8488B0063DB07 /* NorwTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -417,7 +485,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = AdrBookTools/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.norw.AdrBookTools;
+				PRODUCT_BUNDLE_IDENTIFIER = com.qihua.AdrBookTools;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -428,7 +496,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = AdrBookTools/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.norw.AdrBookTools;
+				PRODUCT_BUNDLE_IDENTIFIER = com.qihua.AdrBookTools;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -498,6 +566,7 @@
 				878931FF1CF82737001DE53E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		878932001CF82737001DE53E /* Build configuration list for PBXNativeTarget "AdrBookToolsTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +575,7 @@
 				878932021CF82737001DE53E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		878932031CF82737001DE53E /* Build configuration list for PBXNativeTarget "AdrBookToolsUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +584,7 @@
 				878932051CF82737001DE53E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
