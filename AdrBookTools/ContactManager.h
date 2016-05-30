@@ -14,4 +14,5 @@
 + (BOOL)isAllowedToUseEbook;
 + (NSArray *)getAllContanct;
 + (NSDictionary *)getChineseStringArr:(NSMutableArray *)arrToSort;
++ (void)delContactInEbook:(NSDictionary *)contacts;
 @end

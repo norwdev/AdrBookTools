@@ -14,4 +14,5 @@
 @property (nonatomic, strong) UILabel *numLabel;
 @property (nonatomic, strong) UIButton *checkBox;
 @property (nonatomic, assign) BOOL isShowCheckBox;
+@property (nonatomic, assign) BOOL isDoAnimation;
 @end

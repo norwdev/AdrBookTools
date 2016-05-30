@@ -21,7 +21,11 @@
                     </tableView>
                     <navigationItem key="navigationItem" title="通讯录" id="XS3-YY-qiB">
                         <rightBarButtonItems>
-                            <barButtonItem systemItem="add" id="NgX-aC-ynw"/>
+                            <barButtonItem systemItem="add" id="NgX-aC-ynw">
+                                <connections>
+                                    <action selector="addaction:" destination="lhN-b3-xu2" id="zGQ-0W-m5s"/>
+                                </connections>
+                            </barButtonItem>
                             <barButtonItem systemItem="edit" id="umJ-u0-1iB">
                                 <connections>
                                     <action selector="editAction:" destination="lhN-b3-xu2" id="kgE-Ud-hC7"/>

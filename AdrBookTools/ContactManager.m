@@ -165,6 +165,28 @@
     return nil;
 }
 
++ (void)delContactInEbook:(NSDictionary *)contacts {
+    if (![ContactManager isAllowedToUseEbook]) {
+        return ;
+    }
+    
+    ABAddressBookRef tmpAddressBook = [ContactManager getABAddressBookRef];
+    if(tmpAddressBook == NULL){
+        return;
+    }
+    NSArray* tmpPersonArray = (__bridge NSArray*)ABAddressBookCopyArrayOfAllPeople(tmpAddressBook);
+    for(id tmpPerson in tmpPersonArray)
+    {
+        ABRecordID personID = ABRecordGetRecordID((__bridge ABRecordRef)(tmpPerson));
+        NSNumber *ID = [NSNumber numberWithInt:personID];
+        if ([[contacts allKeys] containsObject:ID]) {
+            ABAddressBookRemoveRecord(tmpAddressBook, (__bridge ABRecordRef)(tmpPerson), nil);
+        }
+    }
+    //保存电话本
+    ABAddressBookSave(tmpAddressBook, nil);
+    CFRelease(tmpAddressBook);
+}
 + (void)alertRefuseAccess
 {
     if ([[[UIDevice currentDevice] systemVersion] floatValue] > 8.0000) {
